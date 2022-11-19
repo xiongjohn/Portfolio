@@ -271,7 +271,7 @@ footer ul {
 }
 
 .work {
-  margin-top: 250px;
+  margin-top: 200px;
 }
 
 .work h1 {
@@ -280,4 +280,35 @@ footer ul {
 
 .work h2 {
   font-size: 24px;
+}
+
+.contact-me {
+  margin-top: 200px;
+}
+
+.contact-me h1 {
+  font-size: 64px;
+}
+
+.contact-me ul {
+  list-style: none;
+  font-size: 20px;
+  margin-top: 48px;
+  padding-left: 0;
+}
+
+.contact-me li {
+  line-height: 35px;
+  padding-top: 10px;
+}
+
+.contact-me a {
+  font-size: 16px;
+}
+
+.contact-me h3 {
+  color: white;
+  margin-top: 40px;
+  /* list-style: none; */
+  /* display: inline-block; */
 }
