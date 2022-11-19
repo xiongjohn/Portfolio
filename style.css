@@ -49,7 +49,7 @@ footer ul {
   padding-right: 10px;
 }
 
-.nav-links li:hover {
+.nav-links li a:hover {
   text-decoration: underline;
 }
 
@@ -65,6 +65,11 @@ footer ul {
 
 .active {
   opacity: 0.5;
+}
+
+.active:hover {
+  text-decoration: none !important;
+  cursor: default;
 }
 
 .hero {
@@ -105,7 +110,13 @@ footer ul {
 }
 
 .contents {
+  margin-top: 75px;
   text-align: center;
+}
+
+.contents h3 {
+  font-size: 24px;
+  margin-bottom: 50px;
 }
 
 .primary-background {
@@ -152,14 +163,22 @@ footer ul {
 }
 
 .primary-button:hover {
-  border: 1px solid var(--accent-color);
-  opacity: 0.8;
+  /* border: 1px solid var(--accent-color); */
+  /* opacity: 0.8; */
+  border: 1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  /* color: white; */
   color: white;
+}
+
+.content-description {
+  transition: all 200ms ease-in-out;
 }
 
 .content-description:hover {
   border: 1px hidden rgba(0, 187, 240, 0.1);
   background-color: rgba(0, 187, 240, 0.1);
+  border-radius: 6px;
 }
 
 .work-inquiry {
@@ -178,7 +197,7 @@ footer ul {
 }
 
 .work-inquiry p {
-  font-size: 18px;
+  font-size: 14px;
   font-family: var(--default-font-family);
   font-weight: 700;
   padding-left: 100px;
