@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #005792;
-  --secondary-color: #00bbf0;
+  --primary-color: rgb(0, 87, 146);
+  --secondary-color: rgb(0, 187, 240);
   --accent-color: #fdb44b;
   --primary-font: ;
   --default-font-family: "Merriweather", serif;
@@ -12,6 +12,7 @@ body {
 }
 
 .hero {
+  padding-top: 300px;
   padding-bottom: 100px;
 }
 
@@ -22,8 +23,22 @@ body {
   text-align: center;
 }
 
+.hero h1 {
+  font-size: 96px;
+}
+
+.hero h2,
+.contents h2 {
+  font-size: 64px;
+}
+.contents h2 {
+  text-align: left;
+}
+
 .hero h3 {
+  font-size: 24px;
   opacity: 0.8;
+  margin-bottom: 48px;
 }
 
 .contents {
@@ -60,14 +75,15 @@ body {
 
 .primary-button {
   border: 1px solid var(--accent-color);
-  border-radius: 6px;
-  padding: 10px 10px;
+  border-radius: 4px;
+  padding: 15px 5px;
   background: var(--accent-color);
   box-shadow: 3px 5px 11px rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  max-width: 150px;
+  /* max-width: 150px; */
+  width: 150px;
   color: var(--primary-color);
   text-decoration: none;
   transition: all 200ms ease-in-out;
@@ -77,4 +93,9 @@ body {
   color: var(--accent-color);
   background-color: white;
   border: 1px solid var(--accent-color);
+}
+
+.content-description:hover {
+  border: 1px hidden rgba(0, 187, 240, 0.1);
+  background-color: rgba(0, 187, 240, 0.1);
 }
