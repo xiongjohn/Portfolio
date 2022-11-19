@@ -29,6 +29,19 @@ header nav {
   order: 1;
 }
 
+footer {
+  margin-top: 100px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: white;
+}
+
 .nav-links li {
   display: inline-block;
   color: white;
@@ -139,10 +152,9 @@ header nav {
 }
 
 .primary-button:hover {
-  /* color: var(--accent-color); */
-  /* background-color: white; */
   border: 1px solid var(--accent-color);
   opacity: 0.8;
+  color: white;
 }
 
 .content-description:hover {
@@ -176,10 +188,23 @@ header nav {
 .work-inquiry a {
   text-decoration: none;
   align-items: center;
-  margin: auto;
 }
 
 .link {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-links {
+  border: 1px solid var(--primary-color);
+  border-radius: 50px;
+  padding: 18px;
+  background-color: var(--primary-color);
+}
+
+.social-links:hover {
+  background-color: white;
+  color: var(--primary-color);
+  transition: all 200ms ease-in-out;
 }
