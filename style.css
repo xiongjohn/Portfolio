@@ -265,10 +265,19 @@ footer ul {
 }
 
 .secondary-button:hover {
-  /* border: 1px solid var(--accent-color); */
-  /* opacity: 0.8; */
   border: 1px solid var(--primary-color);
   background-color: var(--secondary-color);
-  /* color: white; */
   color: white;
+}
+
+.work {
+  margin-top: 250px;
+}
+
+.work h1 {
+  font-size: 64px;
+}
+
+.work h2 {
+  font-size: 24px;
 }
