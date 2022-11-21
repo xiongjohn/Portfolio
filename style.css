@@ -20,7 +20,7 @@ header {
   padding-top: 10px;
   font-size: 18px;
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 100%;
   font-family: var(--secondary-font-family);
   font-weight: 400;
@@ -309,6 +309,7 @@ footer ul {
   font-weight: 700;
   padding-left: 100px;
   margin-bottom: 20px;
+  opacity: 0.8;
 }
 
 .work-inquiry a {
@@ -421,24 +422,96 @@ footer ul {
 }
 
 @media (max-width: 700px) {
+  header {
+    margin-top: -15px;
+  }
+
   .hero {
     padding-top: 100px;
     padding-bottom: 60px;
   }
 
-  .hero h1 {
+  .hero h1,
+  .about-me h1,
+  .work h1,
+  .contact-me h1 {
     font-size: 48px;
   }
-  .hero h2 {
+  .hero h2,
+  .about-me h2,
+  .contact-me h2 {
     font-size: 36px;
   }
   .hero h3 {
-    font-size: 24px;
+    font-size: 20px;
   }
   .nav-links {
     display: none;
   }
   .menu-toggle {
     display: block;
+  }
+
+  .contents {
+    margin-top: 10px;
+  }
+
+  .contents h3 {
+    font-size: 20px;
+  }
+
+  .contents h2 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .contents a,
+  .about-me a {
+    display: block;
+    margin: 0 auto 20px auto;
+    text-align: center;
+  }
+
+  footer {
+    margin: 50px;
+  }
+
+  .work-inquiry {
+    text-align: center;
+  }
+  .work-inquiry h2 {
+    font-size: 36px;
+    padding-left: 0;
+  }
+
+  .work-inquiry p {
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
+
+  .work-inquiry a {
+    margin-bottom: 20px;
+  }
+  .about-me,
+  .work,
+  .contact-me {
+    margin-top: 100px;
+  }
+  .about-me h1,
+  .about-me h2,
+  .work h1,
+  .work h2,
+  .work p,
+  .contact-me h1 {
+    text-align: center;
+  }
+
+  .contact-me h3 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact-me ul {
+    padding-left: 15px;
   }
 }
