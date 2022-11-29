@@ -226,6 +226,14 @@ footer ul {
   margin-bottom: 50px;
 }
 
+.contents p {
+  text-align: left;
+}
+
+.project-image {
+  border: 15px solid var(--accent-color);
+  border-radius: 6px;
+}
 .primary-background {
   background: var(--primary-color);
 }
@@ -270,11 +278,9 @@ footer ul {
 }
 
 .primary-button:hover {
-  /* border: 1px solid var(--accent-color); */
-  /* opacity: 0.8; */
   border: 1px solid var(--primary-color);
   background-color: var(--secondary-color);
-  /* color: white; */
+
   color: white;
 }
 .content-description {
@@ -387,6 +393,16 @@ footer ul {
 
 .work h2 {
   font-size: 24px;
+  text-align: center;
+}
+
+.work p {
+  text-align: center;
+}
+
+.work img {
+  border: 1px solid white;
+  border-radius: 10px;
 }
 
 .contact-me {
@@ -512,5 +528,9 @@ footer ul {
 
   .contact-me ul {
     padding-left: 15px;
+  }
+
+  .project-image {
+    border: 5px solid var(--accent-color);
   }
 }
