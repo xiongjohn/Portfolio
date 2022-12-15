@@ -234,6 +234,12 @@ footer ul {
   border: 15px solid var(--accent-color);
   border-radius: 6px;
 }
+
+.work img {
+  border: 10px solid var(--accent-color);
+  border-radius: 6px;
+}
+
 .primary-background {
   background-repeat: no-repeat;
   background-size: cover;
@@ -289,12 +295,6 @@ footer ul {
 }
 .content-description {
   transition: all 200ms ease-in-out;
-}
-
-.content-description:hover {
-  border: 1px hidden rgba(0, 187, 240, 0.1);
-  background-color: rgba(0, 187, 240, 0.1);
-  border-radius: 6px;
 }
 
 .work-inquiry {
@@ -405,11 +405,6 @@ footer ul {
 
 .work p {
   text-align: center;
-}
-
-.work img {
-  border: 1px solid white;
-  border-radius: 10px;
 }
 
 .contact-me {
@@ -540,6 +535,9 @@ footer ul {
   }
 
   .project-image {
+    border: 5px solid var(--accent-color);
+  }
+  .work img {
     border: 5px solid var(--accent-color);
   }
 }
