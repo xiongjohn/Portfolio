@@ -238,6 +238,11 @@ footer ul {
 .work img {
   border: 10px solid var(--accent-color);
   border-radius: 6px;
+  transition: all 200ms ease-in-out;
+}
+
+.work img:hover {
+  border: 10px solid var(--secondary-color);
 }
 
 .primary-background {
